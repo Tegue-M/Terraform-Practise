@@ -1,0 +1,13 @@
+https://www.zero2devops.com/blog/ultimate-guide-to-terraform
+
+https://docs.google.com/document/d/1bgeX2W_f2BQ1uGlNZR5yIk9KUxnPK-VUQs_Hax3mPi0/edit?usp=sharing
+
+
+
+helm install \
+  --namespace istio-system \
+  --set auth.strategy="anonymous" \
+  --repo https://kiali.org/helm-charts \
+--disable-openapi-validation
+  kiali-server \
+  kiali-server
